@@ -45,7 +45,16 @@
         .about-text { flex: 1; }
         .about-text h2 { font-size: 2.5rem; margin-bottom: 20px; }
         .about-text p { color: #444; margin-bottom: 30px; font-size: 1.1rem; }
-        .about-image-placeholder { flex: 1; width: 100%; height: 300px; background-color: #d1cdc3; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: #888; font-style: italic; }
+        
+        /* The Homepage Image Styling */
+        .home-image { 
+            flex: 1; 
+            width: 100%; 
+            height: 350px; 
+            object-fit: cover; 
+            border-radius: 4px; 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1); 
+        }
 
         /* Call to Action Banner */
         .cta-banner { background-color: #2C3A2E; color: #F5F2EB; text-align: center; padding: 80px 20px; }
@@ -108,8 +117,10 @@
     <!-- ABOUT PREVIEW SECTION -->
     <section class="about-preview">
         <div class="container about-content">
-            <!-- You can replace this div with an <img> tag later -->
-            <div class="about-image-placeholder">[ Photo of Doctor Curandero ]</div>
+            
+            <!-- Replaced the placeholder with your real image -->
+            <img src="logb.jpg" alt="Doctor Curandero" class="home-image">
+            
             <div class="about-text">
                 <h2>Meet Doctor Curandero</h2>
                 <p>With over a decade of experience bridging the gap between Western botanical medicine and indigenous spiritual traditions, I am here to guide you on your journey to true harmony.</p>
